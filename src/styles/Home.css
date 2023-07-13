@@ -1,35 +1,113 @@
-.home{
+.home {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #1f1f1f;
 }
 
-.home h2 {
-    position: relative;
-    top: 55px;
-    right: 100px;
-
-    color: #35013A;
-    letter-spacing: 4px;
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f1f1f;
+    width: 60%;
 }
 
-.home h3 {
+.home .about h2 {
+    position: relative;
+    top: 48px;
+    right: 28px;
+
+    color: #35013A;
+    letter-spacing: 1px;
+}
+
+.home .about p {
+    text-align:justify;
+}
+
+.home .about h2 svg {
+    width: 24px;
+    height: 24px;
+}
+
+.home .about h2 span {
+    margin-left: 10px;
+}
+
+.home .about h3 {
     display: none;
     top: 55px;
 }
 
-@media only screen and (max-width:800px) {
-    .home h2 {
-        display: none;
-    }
-
-    .home h3 {
-        transition: 2s;
-        display: flex;
-        color: #35013A;
-    }
+.about .mobileName {
+    display: none;
 }
 
 
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
 
+.skills h2 {
+    color: #35013A;
+}
+
+.skills .list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skills .list .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width:800px) {
+
+    .home .about h2,
+    .home .about h1 {
+        display: none;
+    }
+
+    .home .about .mobileDesc {
+        display: flex;
+        color: #35013A;
+
+        font-size: 25px;
+    }
+
+    .home .about .mobileName {
+        display: block;
+
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        bottom: 40px;
+
+
+        border-bottom: 2px solid #35013A;
+    }
+
+    .skills {
+        width: 100%;
+        align-items: center;
+    }
+
+    .skills .list {
+        display: flex;
+        align-items: center;
+    }
+
+    .skills .list .item {
+        width: 100%;
+        align-items: center;
+    }
+}

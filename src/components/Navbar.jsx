@@ -24,8 +24,8 @@ export default function Navbar() {
       </div>
       <div className="links">
         <Link to="/"> Home </Link>
-        <Link to="/experience"> Experience </Link>
-        <Link to="/projects" className='lastLink'> Projects </Link>
+        <Link to="/experience"> Experiência </Link>
+        <Link to="/projects" className='lastLink'> Projetos </Link>
       </div>
     </div>
   )
