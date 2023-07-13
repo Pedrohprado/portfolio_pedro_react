@@ -14,7 +14,7 @@ export default function Home() {
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ex quod voluptas eveniet iste enim Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, nisi possimus, molestiae reiciendis numquam dicta temporibus voluptatibus tempore, consectetur consequuntur in at quibusdam. Nam provident officiis cupiditate asperiores sapiente iure?</p>
       </div>
       <div className="skills">
-      <h2>Skills</h2>
+        <h2>Skills</h2>
         <div className="list">
           <div className="item">
             <h3>Front-End</h3>
