@@ -8,8 +8,8 @@ export default function Projects() {
     <div className='projects'>
       <h2>Projetos pessoais</h2>
       <div className="projectList">
-        {ProjectList.map((project) =>{
-          return <ProjectItem name={project.name} image={project.image}/>
+        {ProjectList.map((project, idx) =>{
+          return <ProjectItem id={idx} name={project.name} image={project.image}/>
         })}
       </div>
     </div>
