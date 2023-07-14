@@ -8,9 +8,9 @@ export default function Footer() {
     return (
         <div className='footer'>
             <div className="socialMedia">
-                <GitHubIcon />
-                <LinkedInIcon />
-                <EmailIcon/>
+                <a target='_blank' href="https://github.com/Pedrohprado"><GitHubIcon /></a>
+                <a target='_blank' href="/"><LinkedInIcon /></a>
+                <a href="mailto:pedroh.prado@outlook.com"><EmailIcon /></a>
             </div>
             <p>&copy; 2023 pedroprado</p>
         </div>
