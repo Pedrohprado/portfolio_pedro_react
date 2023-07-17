@@ -14,7 +14,7 @@ export default function Home() {
         <h2>Oi <FaRegHandPeace /> <span>eu sou o Pedro Prado</span></h2>
         <h1>Developer FrontEnd & IoT</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ex quod voluptas eveniet iste enim Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, nisi possimus, molestiae reiciendis numquam dicta temporibus voluptatibus tempore, consectetur consequuntur in at quibusdam. Nam provident officiis cupiditate asperiores sapiente iure?</p>
-        <img src="src\assets\foto_perfil_.png" alt="" />
+        <img src={Photoprofile} alt="" />
       </div>
       <div className="skills">
         <h2>Skills</h2>
