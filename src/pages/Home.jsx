@@ -1,7 +1,8 @@
 import React from 'react'
 import '../styles/Home.css'
 import { FaRegHandPeace } from 'react-icons/fa'
-import { GrGremlin } from "react-icons/gr";
+import Imgprofile from '../components/Imgprofile'
+import Photoprofile from '../assets/foto_perfil_.png'
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
         <h2>Oi <FaRegHandPeace /> <span>eu sou o Pedro Prado</span></h2>
         <h1>Developer FrontEnd & IoT</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ex quod voluptas eveniet iste enim Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, nisi possimus, molestiae reiciendis numquam dicta temporibus voluptatibus tempore, consectetur consequuntur in at quibusdam. Nam provident officiis cupiditate asperiores sapiente iure?</p>
-        <GrGremlin className='perfilphoto'/>
+        <img src="src\assets\foto_perfil_.png" alt="" />
       </div>
       <div className="skills">
         <h2>Skills</h2>
