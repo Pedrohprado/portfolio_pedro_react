@@ -87,7 +87,14 @@
     align-items: flex-start;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:600px) {
+    
+    .about {
+        margin-bottom: 400px;
+    }
+}
+
+@media only screen and (max-width:460px) {
 
     .home .about h2,
     .home .about h1 {
