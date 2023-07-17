@@ -30,7 +30,7 @@
 
 .toggleButton svg {
   font-size: 40px;
-  color: #35013A;
+  color: #085A2F;
 }
 
 .toggleButton button {
@@ -76,7 +76,7 @@
   .links a:hover {
     color:white;
     transition: 0.5s;
-    background-color: #35013A;
+    background-color: #085A2F;
     border-radius: 2rem;
   }
 }
@@ -89,7 +89,7 @@
   }
 
   .links a:hover {
-    color: #35013A;
+    color: #085A2F;
     transition: 0.2s;
   }
 
@@ -115,13 +115,13 @@
 
   .links .lastLink {
     padding: 5px 20px 5px 20px;
-    color: #35013A;
-    border: 2px solid #35013A;
+    color: #085A2F;
+    border: 2px solid #085A2F;
     border-radius: 2rem;
   }
 
   .links .lastLink:hover {
-    background-color: #35013A;
+    background-color: #085A2F;
     color: white;
     box-shadow: 1px 1px 100px #51e8ff5b;
     /* rotate: -360deg; */
@@ -129,7 +129,7 @@
   }
 
   .links a:hover {
-    color: #35013A;
+    color: #085A2F;
     transition: 0.2s;
   }
 

@@ -8,11 +8,11 @@ import WorkIcon from '@material-ui/icons/WorkRounded'
 export default function Experience() {
   return (
     <div className='experience'>
-      <VerticalTimeline lineColor='#35013A'>
+      <VerticalTimeline lineColor='#085A2F'>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2015 - 2017'
-          iconStyle={{ background: '#35013A', color: "#fff" }}
+          iconStyle={{ background: '#085A2F', color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h4 className='vertical-timeline-element-title'>Colegio Preve Objetivo</h4>
@@ -22,7 +22,7 @@ export default function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2019 - 2022 / incompleto'
-          iconStyle={{ background: '#35013A', color: "#fff" }}
+          iconStyle={{ background: '#085A2F', color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h4 className='vertical-timeline-element-title'>Ciência da Computação - Unisagrado</h4>
@@ -32,7 +32,7 @@ export default function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2020 - 2022'
-          iconStyle={{ background: '#35013A', color: "#fff" }}
+          iconStyle={{ background: '#085A2F', color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h4 className='vertical-timeline-element-title'>Instrutor de Treinamento</h4>
@@ -42,7 +42,7 @@ export default function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2022 - atual'
-          iconStyle={{ background: '#35013A', color: "#fff" }}
+          iconStyle={{ background: '#085A2F', color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h4 className='vertical-timeline-element-title'>Instrutor de Treinamento / Desenvolvedor IoT</h4>

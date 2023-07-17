@@ -32,7 +32,7 @@
     display: flex;
     align-items: center;
 
-    color: #35013A;
+    color: #085A2F;
     letter-spacing: 1px;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .skills h2 {
-    color: #35013A;
+    color: #085A2F;
 }
 
 .skills .list {
@@ -102,7 +102,7 @@
     .home .about .mobileDesc {
         margin-top: 15px;
         display: flex;
-        color: #35013A;
+        color: #085A2F;
 
         font-size: 25px;
     }
@@ -115,7 +115,7 @@
         position: relative;
         bottom: 40px;
 
-        border-bottom: 2px solid #35013A;
+        border-bottom: 2px solid #085A2F;
     }
 
     .skills {

@@ -1,7 +1,8 @@
 import React from 'react'
 import ProjectItem from '../components/ProjectItem'
-import '../styles/Project.css'
 import { ProjectList } from '../helpers/ProjectList'
+
+import '../styles/Project.css'
 
 export default function Projects() {
   return (
@@ -14,4 +15,4 @@ export default function Projects() {
       </div>
     </div>
   )
-}
+} 
